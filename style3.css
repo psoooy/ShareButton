@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
+}
+.share-button
+{
+    /* background: #fafad2; */
+    background: #fee134;
+    width: 280px;
+    height: 80px;
+    border-radius: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .3s linear;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
